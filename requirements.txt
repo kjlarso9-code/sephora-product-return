@@ -5,7 +5,12 @@
 # Metrics: Accuracy, F1, ROC-AUC
 # User: <kjlarso9>@asu.edu
 # ======================================================================
-%pip install -q scikit-learn pandas matplotlib numpy mlflow databricks-sdk
+scikit-learn
+pandas
+matplotlib
+numpy
+mlflow
+databricks-sdk
 
 # ---------- MLflow setup ----------
 import os, mlflow, mlflow.sklearn
